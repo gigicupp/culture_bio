@@ -16,7 +16,7 @@ head to server: `cd server`
 then run: `npm run start`
 
 ## Start the client
-head to clinet: `cd client`
+head to client: `cd client`
 then run: `run run start`
 
 ## Demo
