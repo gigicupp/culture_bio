@@ -1,0 +1,28 @@
+- Where can we find your project? 
+	The project can be found here: https://github.com/gigicupp/culture_bio
+
+- Please provide the command(s) to run your project:
+	All the commands are provided in the README.md as well.
+	Install dependencies
+	run: npm install
+
+	Create database and table & Seed database
+	create .env file at the root and populate with DB_HOST DB_USER DB_PASSWORD
+
+	go to the database folder: cd database then run: psql postgres < schema.sql then run: node seed.js
+
+	Start the server
+	head to server: cd server then run: npm run start
+
+	Start the client
+	head to client: cd client then run: run run start
+
+- Please provide any env variables:
+	You will need .env for the Postgres. 
+	DB_HOST, DB_USER, DB_PASSWORD will be needed.
+
+- Please list anything we need to install to run your project:
+	Please run `npm run` to install everything
+
+- Are there any other details we should know?
+	No :)
